@@ -77,7 +77,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk1 {
+.desktop-przycisk01 {
   display: flex;
   padding: 18px 0;
   position: relative;
@@ -101,7 +101,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk2 {
+.desktop-przycisk02 {
   display: flex;
   padding: 18px 0;
   position: relative;
@@ -125,7 +125,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk3 {
+.desktop-przycisk03 {
   display: flex;
   padding: 18px 0;
   position: relative;
@@ -282,7 +282,7 @@
 .desktop-text016 {
   color: rgba(212, 175, 55, 1);
 }
-.desktop-undrawdestinationresr741 {
+.desktop-undrawdestinationresr741svg {
   width: 618px;
   height: 391.37884521484375px;
   display: flex;
@@ -602,7 +602,7 @@
   border-color: transparent;
   margin-bottom: 88px;
 }
-.desktop-undrawsleepanalysiso5f91 {
+.desktop-undrawsleepanalysiso5f91svg {
   width: 701px;
   height: 399.2286376953125px;
   display: flex;
@@ -1107,7 +1107,7 @@
 .desktop-text028 {
   color: rgba(212, 175, 55, 1);
 }
-.desktop-undrawcreditcardpaymentreo9111 {
+.desktop-undrawcreditcardpaymentreo9111svg {
   width: 662px;
   height: 362.8606872558594px;
   display: flex;
@@ -1518,7 +1518,7 @@
   border-color: transparent;
   margin-bottom: 88px;
 }
-.desktop-undrawfitnesstracker30331 {
+.desktop-undrawfitnesstracker30331svg {
   width: 618px;
   height: 427.75689697265625px;
   display: flex;
@@ -2157,7 +2157,7 @@
   margin-bottom: 10px;
   justify-content: center;
 }
-.desktop-przycisk4 {
+.desktop-przycisk04 {
   display: flex;
   padding: 18px 0;
   overflow: hidden;
@@ -2182,7 +2182,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk5 {
+.desktop-przycisk05 {
   display: flex;
   padding: 18px 0;
   overflow: hidden;
@@ -2207,7 +2207,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk6 {
+.desktop-przycisk06 {
   display: flex;
   padding: 18px 0;
   overflow: hidden;
@@ -2232,7 +2232,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk7 {
+.desktop-przycisk07 {
   display: flex;
   padding: 18px 0;
   overflow: hidden;
@@ -2257,7 +2257,7 @@
   margin-bottom: 0;
   text-decoration: none;
 }
-.desktop-przycisk8 {
+.desktop-przycisk08 {
   display: flex;
   padding: 18px 0;
   overflow: hidden;
@@ -2295,4 +2295,689 @@
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
+}
+.desktop-mobile {
+  width: 100%;
+  height: auto;
+  display: none;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 1);
+}
+.desktop-baner1 {
+  display: flex;
+  padding: 20px 25px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 0px;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.17000000178813934);
+}
+.desktop-hamburger {
+  width: 103.33333587646484px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.desktop-przyciskikony3 {
+  width: 22px;
+  height: 19px;
+  position: relative;
+}
+.desktop-logo1 {
+  width: 103.33333587646484px;
+  display: flex;
+  padding: 0 80px;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  flex-direction: column;
+}
+.desktop-text6711 {
+  width: 131px;
+  height: 17px;
+  position: relative;
+  box-sizing: content-box;
+  border-color: transparent;
+}
+.desktop-right {
+  width: 103.33333587646484px;
+  height: 19.140625px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.desktop-framerodek {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  background-color: rgba(217, 217, 217, 0.10000000149011612);
+}
+.desktop-tytu1 {
+  display: flex;
+  padding: 9px 0;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 1);
+}
+.desktop-text109 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  opacity: 0.80;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Prata;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.desktop-movado-connectbackgroundcropped11 {
+  width: auto;
+  height: 120px;
+  position: relative;
+  align-self: stretch;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+.desktop-text111 {
+  color: rgba(232, 232, 232, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Prata;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-funkcje1 {
+  display: flex;
+  padding: 0 33px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+.desktop-box11 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-text116 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 33px;
+  text-decoration: none;
+}
+.desktop-text117 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-undrawdestinationresr741 {
+  width: 290px;
+  height: 193px;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-line11 {
+  width: 290px;
+  height: 0px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.desktop-box21 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-text122 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 63px;
+  text-decoration: none;
+}
+.desktop-text123 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-undrawsleepanalysiso5f91 {
+  width: 290px;
+  height: 207px;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-line21 {
+  width: 290px;
+  height: 0px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.desktop-box31 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-text128 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.desktop-text129 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-undrawcreditcardpaymentreo9111 {
+  width: 290px;
+  height: 187px;
+  position: relative;
+  align-self: stretch;
+}
+.desktop-line31 {
+  width: 290px;
+  height: 0px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.desktop-box41 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-text136 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 41px;
+  text-decoration: none;
+}
+.desktop-text137 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-undrawfitnesstracker30331 {
+  width: 352px;
+  height: 235px;
+  position: relative;
+}
+.desktop-line41 {
+  width: 290px;
+  height: 0px;
+  position: relative;
+}
+.desktop-galeria2 {
+  display: flex;
+  padding: 0 19px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+.desktop-text144 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Prata;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 37px;
+  text-decoration: none;
+}
+.desktop-galeria3 {
+  width: 318px;
+  height: 271px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.desktop-movado-connectgold11 {
+  top: 0px;
+  left: 0px;
+  width: 318px;
+  height: 271px;
+  position: absolute;
+  border-color: transparent;
+}
+.desktop-rectangle91 {
+  top: 0px;
+  left: 0px;
+  width: 318px;
+  height: 271px;
+  position: absolute;
+  border-color: rgba(212, 175, 55, 1);
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 30px;
+}
+.desktop-angleleft1 {
+  top: 116.71601867675781px;
+  left: 11.588921546936035px;
+  width: 26px;
+  height: 38px;
+  position: absolute;
+}
+.desktop-angleright1 {
+  top: 116.71601867675781px;
+  left: 276.7434387207031px;
+  width: 26px;
+  height: 38px;
+  position: absolute;
+}
+.desktop-specyfilacja {
+  display: flex;
+  padding: 40px 20px 0 20px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+.desktop-frame41 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 60px;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-text146 {
+  color: rgba(212, 175, 55, 1);
+  width: 268px;
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Prata;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 66px;
+  text-decoration: none;
+}
+.desktop-text148 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-text149 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-text153 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop-text157 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-text161 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop-text165 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-text169 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop-text173 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-text177 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop-text181 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-text185 {
+  color: rgba(255, 255, 255, 1);
+}
+.desktop-text189 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-frame51 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-text194 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Prata;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 62px;
+  text-decoration: none;
+}
+.desktop-text196 {
+  color: rgba(212, 175, 55, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 62px;
+  text-decoration: none;
+}
+.desktop-text197 {
+  color: rgba(212, 175, 55, 1);
+}
+.desktop-frame62 {
+  display: flex;
+  padding: 0 82px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.desktop-downloadmastercardwhitelogopng21635274084smejhasby1 {
+  width: 159px;
+  height: 90px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 43px;
+}
+.desktop-visalogowhite300x9711 {
+  width: 197px;
+  height: 66px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 43px;
+}
+.desktop-google-pay-logo11 {
+  width: 201px;
+  height: 74px;
+  position: relative;
+  border-color: transparent;
+}
+.desktop-onas1 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(217, 217, 217, 0.07000000029802322);
+}
+.desktop-frame63 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.desktop-przycisk09 {
+  display: flex;
+  padding: 18px 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 18px;
+  justify-content: center;
+}
+.desktop-text207 {
+  color: rgba(232, 232, 232, 1);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-przycisk10 {
+  display: flex;
+  padding: 18px 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 18px;
+  justify-content: center;
+}
+.desktop-text209 {
+  color: rgba(232, 232, 232, 1);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-przycisk11 {
+  display: flex;
+  padding: 18px 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 18px;
+  justify-content: center;
+}
+.desktop-text211 {
+  color: rgba(232, 232, 232, 1);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-przycisk12 {
+  display: flex;
+  padding: 18px 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 18px;
+  justify-content: center;
+}
+.desktop-text213 {
+  color: rgba(232, 232, 232, 1);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-przycisk13 {
+  display: flex;
+  padding: 18px 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.desktop-text215 {
+  color: rgba(232, 232, 232, 1);
+  height: auto;
+  font-size: 10px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.desktop-text217 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 8px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+@media(max-width: 1140px) {
+  .desktop-desktop {
+    display: none;
+  }
+  .desktop-mobile {
+    display: flex;
+  }
+  .desktop-framerodek {
+    width: 360px;
+    position: 0px;
+    align-self: center;
+  }
 }
