@@ -513,7 +513,6 @@ body,
 }
 .index-galeria {
   display: flex;
-  padding: 0 19px;
   position: relative;
   align-self: stretch;
   align-items: center;
