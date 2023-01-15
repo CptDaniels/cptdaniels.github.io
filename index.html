@@ -496,7 +496,7 @@
               <div class="index-property1default1">
                 <img
                   alt="MovadoConnectgold17930"
-                  src="public/playground_assets/movadoconnectgold17930-fzf-900w.png"
+                  src="public/playground_assets/movadoconnectgold.jpg"
                   class="index-movado-connectgold11"
                 />
                 <nav class="index-container14 button">
@@ -622,6 +622,20 @@
     </div>
   </body>
 </html>
-<script>
-  
+<script type="text/javascript">
+  var imgArray = [
+        'public\playground_assets/movadoconnectsilver.jpg',
+        'public\playground_assets/movadoconnectplatinium.jpg',
+        'public\playground_assets/movadoconnectbronze.jpg'
+    ];
+    var curIndex = 0;
+    var imgDuration = 5000;
+
+    function slideShow() {
+        document.getElementById('image1').src = imgArray[curIndex];
+        curIndex++;
+        if (curIndex == imgArray.length) { curIndex = 0; }
+        setTimeout("slideShow()", imgDuration);
+    }
+    slideShow();
 </script>
