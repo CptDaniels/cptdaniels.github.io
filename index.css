@@ -29,16 +29,16 @@ body,
 }
 
 .slide1 {
-  background-image: url("../public/playground_assets/MovadoConnectgold.jpg");
+  background-image: url("./public/playground_assets/MovadoConnectgold.jpg");
 }
 .slide2 {
-  background-image: url("../public/playground_assets/MovadoConnectsilver.jpg");
+  background-image: url("./public/playground_assets/MovadoConnectsilver.jpg");
 }
 .slide3 {
-  background-image: url("../public/playground_assets/MovadoConnectbronze.jpg");
+  background-image: url("./public/playground_assets/MovadoConnectbronze.jpg");
 }
 .slide4 {
-  background-image: url("../public/playground_assets/MovadoConnectplatinium.jpg");
+  background-image: url("./public/playground_assets/MovadoConnectplatinium.jpg");
 }
 
 .slide-content {
@@ -51,7 +51,6 @@ body,
 .arrow {
   cursor: pointer;
 }
-
 #arrow-left {
   flex: 1;
   right: var(--dl-space-space-halfunit);
@@ -68,6 +67,80 @@ body,
   right: var(--dl-space-space-halfunit);
   width: 100px;
   height: 100px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  right:8px;
+}
+body,
+#slider2,
+.wrap2,
+.slide-content2 {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+#slider2{
+  border-color: rgba(212, 175, 55, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.wrap2 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.slideb {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slideb1 {
+  background-image: url("./public/playground_assets/MovadoConnectgold.jpg");
+}
+.slideb2 {
+  background-image: url("./public/playground_assets/MovadoConnectsilver.jpg");
+}
+.slideb3 {
+  background-image: url("./public/playground_assets/MovadoConnectbronze.jpg");
+}
+.slideb4 {
+  background-image: url("./public/playground_assets/MovadoConnectplatinium.jpg");
+}
+
+.slide-content2 {
+  flex: 2;
+  width: 100%;
+  height: 200px;
+  align-self: stretch;
+}
+
+.arrow2 {
+  cursor: pointer;
+}
+
+#arrow-left2 {
+  flex: 1;
+  right: var(--dl-space-space-halfunit);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 8px;
+}
+
+#arrow-right2 {
+  flex: 1;
+  right: var(--dl-space-space-halfunit);
+  width: 50px;
+  height: 50px;
   display: flex;
   position: absolute;
   top: 40%;
