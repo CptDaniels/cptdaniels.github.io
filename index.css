@@ -29,16 +29,16 @@ body,
 }
 
 .slide1 {
-  background-image: url("public\playground_assets\MovadoConnectgold.jpg");
+  background-image: url("../public/playground_assets/MovadoConnectgold.jpg");
 }
 .slide2 {
-  background-image: url("public\playground_assets\MovadoConnectsilver.jpg");
+  background-image: url("../public/playground_assets/MovadoConnectsilver.jpg");
 }
 .slide3 {
-  background-image: url("public\playground_assets\MovadoConnectbronze.jpg");
+  background-image: url("../public/playground_assets/MovadoConnectbronze.jpg");
 }
 .slide4 {
-  background-image: url("public\playground_assets\MovadoConnectplatinium.jpg");
+  background-image: url("../public/playground_assets/MovadoConnectplatinium.jpg");
 }
 
 .slide-content {
