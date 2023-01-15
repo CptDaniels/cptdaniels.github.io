@@ -1,3 +1,78 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+#slider{
+  border-color: rgba(212, 175, 55, 1);
+  border-width: 5px;
+  border-radius: 30px;
+}
+.wrap {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("public/playground_assets/movadoconnectgold.jpg");
+}
+.slide2 {
+  background-image: url("public/playground_assets/movadoconnectsilver.jpg");
+}
+.slide3 {
+  background-image: url("public/playground_assets/movadoconnectbronze.jpg");
+}
+.slide4 {
+  background-image: url("public/playground_assets/movadoconnectplatinium.jpg");
+}
+
+.slide-content {
+  flex: 2;
+  width: 882px;
+  height: 500px;
+  align-self: stretch;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+#arrow-left {
+  flex: 1;
+  right: var(--dl-space-space-halfunit);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 8px;
+}
+
+#arrow-right {
+  flex: 1;
+  right: var(--dl-space-space-halfunit);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  right:8px;
+}
 .index-container {
   min-height: 100vh;
 }

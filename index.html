@@ -493,30 +493,42 @@
               <h2 class="index-text130">
                 Dobierz swój własny styl wykończenia
               </h2>
-              <div class="index-property1default1">
-                <img
-                  alt="MovadoConnectgold17930"
-                  src="public/playground_assets/movadoconnectgold.jpg"
-                  class="index-movado-connectgold11"
-                />
-                <nav class="index-container14 button">
-                  <svg viewBox="0 0 768 1024" class="index-icon12">
-                    <path
-                      d="M669.143 172l-303.429 303.429 303.429 303.429c14.286 14.286 14.286 37.143 0 51.429l-94.857 94.857c-14.286 14.286-37.143 14.286-51.429 0l-424-424c-14.286-14.286-14.286-37.143 0-51.429l424-424c14.286-14.286 37.143-14.286 51.429 0l94.857 94.857c14.286 14.286 14.286 37.143 0 51.429z"
-                    ></path>
-                  </svg>
-                </nav>
-                <nav class="index-container15 button">
-                  <svg
-                    viewBox="0 0 694.8571428571428 1024"
-                    class="index-icon14"
-                  >
-                    <path
-                      d="M632.571 501.143l-424 424c-14.286 14.286-37.143 14.286-51.429 0l-94.857-94.857c-14.286-14.286-14.286-37.143 0-51.429l303.429-303.429-303.429-303.429c-14.286-14.286-14.286-37.143 0-51.429l94.857-94.857c14.286-14.286 37.143-14.286 51.429 0l424 424c14.286 14.286 14.286 37.143 0 51.429z"
-                    ></path>
-                  </svg>
-                </nav>
-              </div>
+              <div class="wrap">
+                  
+                  <div id="slider">
+                    <div id="arrow-left" class="arrow">
+                      <svg viewBox="0 0 768 1024" class="index-icon12">
+                        <path
+                          d="M669.143 172l-303.429 303.429 303.429 303.429c14.286 14.286 14.286 37.143 0 51.429l-94.857 94.857c-14.286 14.286-37.143 14.286-51.429 0l-424-424c-14.286-14.286-14.286-37.143 0-51.429l424-424c14.286-14.286 37.143-14.286 51.429 0l94.857 94.857c14.286 14.286 14.286 37.143 0 51.429z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="slide slide1">
+                      <div class="slide-content">
+                      </div>
+                    </div>
+                    <div class="slide slide2">
+                      <div class="slide-content">
+                      </div>
+                    </div>
+                    <div class="slide slide3">
+                      <div class="slide-content">
+                      </div>
+                    </div>
+                    <div class="slide slide4">
+                      <div class="slide-content">
+                      </div>
+                    </div>
+                    <div id="arrow-right" class="arrow">
+                      <svg viewBox="0 0 694.8571428571428 1024" class="index-icon14">
+                      <path
+                        d="M632.571 501.143l-424 424c-14.286 14.286-37.143 14.286-51.429 0l-94.857-94.857c-14.286-14.286-14.286-37.143 0-51.429l303.429-303.429-303.429-303.429c-14.286-14.286-14.286-37.143 0-51.429l94.857-94.857c14.286-14.286 37.143-14.286 51.429 0l424 424c14.286 14.286 14.286 37.143 0 51.429z"
+                      ></path>
+                    </svg>
+                    </div>
+                  </div>
+                </div>
+              
             </section>
             <header class="index-specyfikacja">
               <div class="index-frame41">
@@ -623,19 +635,53 @@
   </body>
 </html>
 <script type="text/javascript">
-  var imgArray = [
-        'public\playground_assets/movadoconnectsilver.jpg',
-        'public\playground_assets/movadoconnectplatinium.jpg',
-        'public\playground_assets/movadoconnectbronze.jpg'
-    ];
-    var curIndex = 0;
-    var imgDuration = 5000;
+  let sliderImages = document.querySelectorAll(".slide"),
+  arrowLeft = document.querySelector("#arrow-left"),
+  arrowRight = document.querySelector("#arrow-right"),
+  current = 0;
 
-    function slideShow() {
-        document.getElementById('image1').src = imgArray[curIndex];
-        curIndex++;
-        if (curIndex == imgArray.length) { curIndex = 0; }
-        setTimeout("slideShow()", imgDuration);
-    }
-    slideShow();
+// Clear all images
+function reset() {
+  for (let i = 0; i < sliderImages.length; i++) {
+    sliderImages[i].style.display = "none";
+  }
+}
+
+// Init slider
+function startSlide() {
+  reset();
+  sliderImages[0].style.display = "block";
+}
+
+// Show prev
+function slideLeft() {
+  reset();
+  sliderImages[current - 1].style.display = "block";
+  current--;
+}
+
+// Show next
+function slideRight() {
+  reset();
+  sliderImages[current + 1].style.display = "block";
+  current++;
+}
+
+// Left arrow click
+arrowLeft.addEventListener("click", function() {
+  if (current === 0) {
+    current = sliderImages.length;
+  }
+  slideLeft();
+});
+
+// Right arrow click
+arrowRight.addEventListener("click", function() {
+  if (current === sliderImages.length - 1) {
+    current = -1;
+  }
+  slideRight();
+});
+
+startSlide();
 </script>
