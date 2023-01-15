@@ -35,13 +35,15 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
-  color: var(--dl-color-gray-black);
+  fill: var(--dl-color-gray-white);
   display: inline-block;
   padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  animation-fill-mode: var(--dl-color-gray-white);
+}
+.button:hover {
+  fill: #d4af37;
+  color: #d4af37;
 }
 .input {
   color: var(--dl-color-gray-black);
@@ -76,11 +78,51 @@
   display: flex !important;
   transform: none !important;
 }
+.Headergold {
+  font-size: 18px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+.Mainheader {
+  font-size: 48px;
+  font-family: Prata;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+.Header {
+  font-size: 24px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  text-decoration: none;
+}
 .Content {
   font-size: 16px;
-  font-family: Inter;
+  font-family: Roboto;
   font-weight: 400;
   line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Header3 {
+  font-size: 24px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  text-decoration: none;
+}
+.Header2 {
+  font-size: 24px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
   text-transform: none;
   text-decoration: none;
 }
@@ -89,6 +131,14 @@
   font-family: Inter;
   font-weight: 700;
   line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Header1 {
+  font-size: 24px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
   text-transform: none;
   text-decoration: none;
 }
